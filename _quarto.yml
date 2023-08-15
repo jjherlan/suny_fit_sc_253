@@ -45,6 +45,8 @@ website:
         text: Code in your files
       - href: content/acknowledgements.qmd
         text: Acknowledgements
+      - href: content/fit_sc_253_lecture1_fall2023.qmd
+        text: fit
 
 format:
   html:
