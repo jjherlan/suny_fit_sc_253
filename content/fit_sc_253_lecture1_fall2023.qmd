@@ -30,6 +30,7 @@ require(car)
 
 ::: columns
 ::: {.column width="50%"}
+
 ![](slide2_earth.jpg){.absolute top="10" left="1" width="450" height="350"}
 :::
 
@@ -62,7 +63,6 @@ What is Ecology?
 ------------------------------------------------------------------------
 
 ::: columns
-
 ::: {.column width="50%"}
 
 ![](slide5_moose.png){.absolute top="10" left="1" width="450" height="375"}
@@ -144,16 +144,217 @@ Origins and mechanisms of interactions
 :::
 :::
 
-<!-- ------------------------------------------------------------------------ -->
+------------------------------------------------------------------------
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ![](rpn_pcf_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
-<!-- ::: -->
+::: columns
+::: {.column width="50%"}
 
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ::: -->
-<!-- ::: -->
+Why is Ecology so cool?
+
+- Why do pikas collect certain plants for winter?
+  - Plants with higher toxin content on bottom of pile.
+
+- Plants, habitat impact, and adaptation to climate change 
+
+https://www.scientificamerican.com/article/fuzzy-pikas-adapt-to-climate-change-at-different-rates/
+
+:::
+
+::: {.column width="50%"}
+
+{{< video https://www.youtubeeducation.com/watch?v=F8edS07_Cys width="500" height="350" >}}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%"}
+
+Why is Ecology so cool?
+
+- Why do monarch butterflies migrate such long distances?
+  - Monarchs travel 3,000 miles from the United States to the mountains of Mexico.
+  - It takes multiple generations of butterflies to make the round-trip journey.
+
+:::
+
+::: {.column width="50%"}
+
+![](slide16_monarchs.png){.absolute top="10" right="1" width="250" height="125"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Why is Ecology so cool?
+
+- How do monarch butterflies migrate such long distances?
+  - Use signals from the changing of the seasons and availability of their main food source (milkweed plants).
+  - Their overwintering habitats are in danger from habitat conversion to agriculture.
+  
+- Why do they migrate?
+  - To follow food?
+  - To escape parasites and disease?
+
+https://news.nationalgeographic.com/2017/10/monarch-butterfly-migration/
+
+:::
+
+::: {.column width="50%"}
+
+![](slide15_monarchs.jpg){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Why is Ecology so cool?
+
+- Why do three-toed sloths poop on the ground?
+
+:::
+
+::: {.column width="50%"}
+
+{{< video https://www.youtubeeducation.com/watch?v=ndMKTnSRsKM width="500" height="350" >}}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Why is Ecology so cool?
+
+- Why do three-toed sloths poop on the ground?
+- Positive interactions between sloths, moths, and algae!
+  - 3-way mutualism
+  - This does not occur in sloth species that poop while in trees.
+
+http://rspb.royalsocietypublishing.org/content/281/1778/20133006
+
+:::
+
+::: {.column width="50%"}
+
+![](slide18_sloth.png){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Why is Ecology so cool?
+
+- How does climate change impact wildlife?
+- Bears aren't hibernating or they are waking up early
+  - "...where a 1 $^\circ$C increase in the winter minimum temperature is associated with a 6-day reduction in the black bear hibernation; by 2050, the average length of bear hibernation in our study area could decline by 8 to 22 days [-@johnson_human_2018]."
+
+https://www.nytimes.com/2018/05/04/climate/bears-not-hibernating.html?emc=edit_th_180510&nl=todaysheadlines&nlid=325038210510
+
+https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.13021
+
+:::
+
+::: {.column width="50%"}
+
+![](slide19_bear.jpg){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Why is Ecology so cool?
+
+- Shorter hibernation may mean more conflicts between bears and people.
+- How they respond to changes in their food sources is still being investigated.
+
+https://www.nytimes.com/2018/05/04/climate/bears-not-hibernating.html?emc=edit_th_180510&nl=todaysheadlines&nlid=325038210510
+
+https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.13021
+
+:::
+
+::: {.column width="50%"}
+
+![](slide19_bear.jpg){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Ecology helps us understand humans' interactions with the environment
+
+- Example: Human population growth
+  - What have we seen in the past?
+  - What do we predict for the future?
+-Use math to do this
+
+[Our World in Data](https://ourworldindata.org/world-population-growth/){preview-link="true"}
+
+:::
+
+::: {.column width="50%"}
+
+![](slide21_pop_growth.png){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Ecology helps us understand humans' interactions with the environment
+
+:::
+
+::: {.column width="50%"}
+
+![](slide22_pop_growth2.png){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Ecology helps us understand humans' interactions with the environment
+
+:::
+
+::: {.column width="50%"}
+
+![](slide22_pop_growth2.png){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
 
 ------------------------------------------------------------------------
 
