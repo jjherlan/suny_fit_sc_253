@@ -375,9 +375,8 @@ James J. Herlan
 </div><div class="column" style="width:50%;">
 <p>Fall 2023</p>
 <p>James J. Herlan</p>
-<p>As a graduate student, I focus on the modularity, interconnectedness, and resilience of marine populations, communities, and ecosystems.<span class="citation" data-cites="nordbotten_ecological_2018"><sup><a href="#/references" role="doc-biblioref" onclick="">1</a></sup></span></p>
+<p>As a graduate student, I focus on the modularity, interconnectedness, and resilience of marine populations, communities, and ecosystems<span class="citation" data-cites="nordbotten_ecological_2018"><sup><a href="#/references" role="doc-biblioref" onclick="">1</a></sup></span>.</p>
 <p><a href="https://slevin.princeton.edu/" data-preview-link="true">Simon A. Levin</a></p>
-<p><br></p>
 </div>
 </div>
 </section>
@@ -387,13 +386,15 @@ James J. Herlan
 <div>
 <ul>
 <li class="fragment">The science by which we study how organisms (animals, plants, and microbes) interact with each other and with their environment.</li>
-<li class="fragment">Environment: Everything external to the organism: abiotic and biotic.</li>
-<li class="fragment">Biotic:</li>
-<li class="fragment">Abiotic:</li>
+<li class="fragment">Environment: Everything external to the organism: abiotic and biotic.
+<ul>
+<li class="fragment">Biotic: living things in the environment</li>
+<li class="fragment">Abiotic: non-living things in the environment</li>
+</ul></li>
 </ul>
 </div>
 </section>
-<section class="slide level2 smaller scrollable" id="references">
+<section class="slide level2">
 
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -402,71 +403,69 @@ James J. Herlan
 <p>What are some of the physical (i.e., abiotic) and biological (i.e., biotic) processes in this photo?</p>
 </div>
 </div>
-<!-- ------------------------------------------------------------------------ -->
-<!-- **Raw data (not transformed)** -->
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r, include = FALSE} -->
-<!-- p_cover = read_csv('LSMclassGrid.csv') %>% -->
-<!--   group_by(Site) %>% -->
-<!--   mutate( -->
-<!--     pland_decimal = pland*0.01) %>% -->
-<!--   mutate_at(vars(Site, cover, plot_id), factor) -->
-<!-- ``` -->
-<!-- ```{r, include = FALSE} -->
-<!-- plot(pland_decimal ~ Site, data = p_cover) -->
-<!-- ``` -->
-<!-- ```{r} -->
-<!-- p_cover_mod.lm1 <- lm(pland_decimal ~ Site, data = p_cover) -->
-<!-- summary(p_cover_mod.lm1) -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r} -->
-<!-- par(mfrow = c(2, 2)) -->
-<!-- plot(p_cover_mod.lm1) -->
-<!-- ``` -->
-<!-- ```{r} -->
-<!-- Anova(p_cover_mod.lm1, type = "III") -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ------------------------------------------------------------------------ -->
-<!-- **Logit-transformation** -->
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r} -->
-<!-- p_cover_mod.lm2 <- lm(logit(pland_decimal) ~ Site, data = p_cover) -->
-<!-- summary(p_cover_mod.lm2) -->
-<!-- ``` -->
-<!-- ```{r} -->
-<!-- par(mfrow = c(2, 2)) -->
-<!-- plot(p_cover_mod.lm2) -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r} -->
-<!-- Anova(p_cover_mod.lm2, type = "III") -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ------------------------------------------------------------------------ -->
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ![](rpn_ripleysK_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
-<!-- ::: -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- Em -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ------------------------------------------------------------------------ -->
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ![](rpn_standL_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
-<!-- ::: -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ::: -->
-<!-- ::: -->
+</section>
+<section class="slide level2">
+
+<p>Ecology is a broad and diverse field.</p>
+<div>
+<ul>
+<li class="fragment">Direct and indirect interactions between organisms.</li>
+<li class="fragment">Physical processes and chemical substances are affected by other organisms.
+<ul>
+<li class="fragment">Once we couple the diverse biotic and complex abiotic components, we can get a sense of the breadth of Ecology.</li>
+</ul></li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+<p>Direct and interactions between organisms… humans and organisms… humans and abiotic factors… biotic factors?</p>
+<p><br><br></p>
+<p><img data-src="slide8_nyc.png" class="absolute" style="top: 150px; left: 1px; width: 800px; height: 400px; "></p>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="110331_0794.jpg" class="absolute" style="top: 10px; left: 1px; width: 475px; height: 350px; "></p>
+</div><div class="column" style="width:50%;">
+<p>History of Ecology</p>
+<ul>
+<li class="fragment">Ernst Haeckel, 1868
+<ul>
+<li class="fragment">From the Greek word… oikos or home</li>
+<li class="fragment">“Describes the housekeeping habits of organisms”</li>
+</ul></li>
+<li class="fragment">G. Evelyn Hutchinson (1903 - 1991)
+<ul>
+<li class="fragment">Modern Ecology</li>
+<li class="fragment">Published “Treatise on Limnology” in 1957</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Ecology - changes in perspective</p>
+<ul>
+<li class="fragment">Started as a descriptive science
+<ul>
+<li class="fragment">Describes phenomena and patterns (“stamp collecting”)</li>
+<li class="fragment">i.e., WHAT?</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p>Origins and mechanisms of interactions</p>
+<ul>
+<li class="fragment">i.e., the HOW? and WHY?</li>
+<li class="fragment">A functional and evolutionary approach</li>
+<li class="fragment">Ecological setting acts a stage for evolutionary processes</li>
+</ul>
+</div>
+</div>
 <!-- ------------------------------------------------------------------------ -->
 <!-- ::: columns -->
 <!-- ::: {.column width="50%" style="font-size: 27px"} -->
@@ -475,14 +474,10 @@ James J. Herlan
 <!-- ::: {.column width="50%" style="font-size: 27px"} -->
 <!-- ::: -->
 <!-- ::: -->
-<!-- ------------------------------------------------------------------------ -->
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ![](rpn_Gfunction_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
-<!-- ::: -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ::: -->
-<!-- ::: -->
+</section>
+<section class="slide level2 smaller scrollable" id="references">
+
+<p>References</p>
 
 <div class="footer footer-default">
 
