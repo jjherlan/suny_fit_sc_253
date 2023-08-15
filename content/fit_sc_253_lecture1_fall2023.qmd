@@ -352,6 +352,21 @@ Ecology helps us understand humans' interactions with the environment
 ::: {.column width="50%"}
 
 ![](slide22_pop_growth2.png){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Ecology helps us understand humans' interactions with the environment
+
+:::
+
+::: {.column width="50%"}
+
+![](slide22_pop_growth2.png){.absolute top="10" right="1" width="475" height="250"}
 
 :::
 :::
