@@ -33,6 +33,10 @@ require(car)
 
 ::: {.column width="50%"}
 
+Fall 2023
+
+James J. Herlan
+
 :::
 :::
 
