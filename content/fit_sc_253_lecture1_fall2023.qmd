@@ -120,16 +120,29 @@ History of Ecology
 :::
 :::
 
-<!-- ------------------------------------------------------------------------ -->
+------------------------------------------------------------------------
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ![](rpn_standL_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
-<!-- ::: -->
+::: columns
+::: {.column width="50%"}
 
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ::: -->
-<!-- ::: -->
+Ecology - changes in perspective
+
+- Started as a descriptive science
+  - Describes phenomena and patterns ("stamp collecting")
+  - i.e., WHAT?
+
+:::
+
+::: {.column width="50%"}
+
+Origins and mechanisms of interactions
+
+- i.e., the HOW? and WHY?
+- A functional and evolutionary approach
+- Ecological setting acts a stage for evolutionary processes
+
+:::
+:::
 
 <!-- ------------------------------------------------------------------------ -->
 
