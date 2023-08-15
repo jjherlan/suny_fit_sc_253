@@ -39,36 +39,43 @@ Fall 2023
 
 James J. Herlan
 
-As a graduate student, I focus on the modularity, interconnectdness, and resilience of marine populations, communities, and ecosystems. [@nordbotten_ecological_2018]
+As a graduate student, I focus on the modularity, interconnectedness, and resilience of marine populations, communities, and ecosystems. [@nordbotten_ecological_2018] 
 
 [Simon A. Levin](https://slevin.princeton.edu/){preview-link="true"}
 
+<br/>
+
 :::
 :::
 
-<!-- ------------------------------------------------------------------------ -->
+------------------------------------------------------------------------
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![](rpn_wave_fig_c.png){.absolute top="10" left="1" width="450" height="375"} -->
-<!-- ::: -->
+What is Ecology?
 
-<!-- ::: {.column width="50%"} -->
-<!-- ![](rpn_poci_percent_cover_2016.png){.absolute top="10" right="1" width="475" height="375"} -->
-<!-- ::: -->
-<!-- ::: -->
+::: incremental
 
-<!-- ------------------------------------------------------------------------ -->
+- The science by which we study how organisms (animals, plants, and microbes) interact with each other and with their environment.
+- Environment: Everything external to the organism: abiotic and biotic.
+- Biotic: 
+- Abiotic:
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![](rpn_wave_fig_c.png){.absolute top="10" left="1" width="450" height="375"} -->
-<!-- ::: -->
+:::
 
-<!-- ::: {.column width="50%"} -->
-<!-- ![](rpn_poci_size_2023_03_18.png){.absolute top="10" right="1" width="475" height="375"} -->
-<!-- ::: -->
-<!-- ::: -->
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%"}
+
+![](slide5_moose.png){.absolute top="10" left="1" width="450" height="375"}
+:::
+
+::: {.column width="50%"}
+
+What are some of the physical (i.e., abiotic) and biological (i.e., biotic) processes in this photo?
+
+:::
+:::
 
 <!-- ------------------------------------------------------------------------ -->
 
