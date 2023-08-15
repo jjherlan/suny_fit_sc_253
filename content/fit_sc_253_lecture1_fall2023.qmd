@@ -39,11 +39,9 @@ Fall 2023
 
 James J. Herlan
 
-As a graduate student, I focus on the modularity, interconnectedness, and resilience of marine populations, communities, and ecosystems. [@nordbotten_ecological_2018] 
+As a graduate student, I focus on the modularity, interconnectedness, and resilience of marine populations, communities, and ecosystems [-@nordbotten_ecological_2018].  
 
 [Simon A. Levin](https://slevin.princeton.edu/){preview-link="true"}
-
-<br/>
 
 :::
 :::
@@ -56,8 +54,8 @@ What is Ecology?
 
 - The science by which we study how organisms (animals, plants, and microbes) interact with each other and with their environment.
 - Environment: Everything external to the organism: abiotic and biotic.
-- Biotic: 
-- Abiotic:
+  - Biotic: living things in the environment 
+  - Abiotic: non-living things in the environment
 
 :::
 
@@ -77,77 +75,50 @@ What are some of the physical (i.e., abiotic) and biological (i.e., biotic) proc
 :::
 :::
 
-<!-- ------------------------------------------------------------------------ -->
+------------------------------------------------------------------------
 
-<!-- **Raw data (not transformed)** -->
+Ecology is a broad  and diverse field.
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r, include = FALSE} -->
-<!-- p_cover = read_csv('LSMclassGrid.csv') %>% -->
-<!--   group_by(Site) %>% -->
-<!--   mutate( -->
-<!--     pland_decimal = pland*0.01) %>% -->
-<!--   mutate_at(vars(Site, cover, plot_id), factor) -->
-<!-- ``` -->
+::: incremental
 
-<!-- ```{r, include = FALSE} -->
-<!-- plot(pland_decimal ~ Site, data = p_cover) -->
-<!-- ``` -->
+- Direct and indirect interactions between organisms.
+- Physical processes and chemical substances are affected by other organisms.
+  - Once we couple the diverse biotic and complex abiotic components, we can get a sense of the breadth of Ecology.
 
-<!-- ```{r} -->
-<!-- p_cover_mod.lm1 <- lm(pland_decimal ~ Site, data = p_cover) -->
-<!-- summary(p_cover_mod.lm1) -->
-<!-- ``` -->
-<!-- ::: -->
+:::
 
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r} -->
-<!-- par(mfrow = c(2, 2)) -->
-<!-- plot(p_cover_mod.lm1) -->
-<!-- ``` -->
+------------------------------------------------------------------------
 
-<!-- ```{r} -->
-<!-- Anova(p_cover_mod.lm1, type = "III") -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ::: -->
+Direct and interactions between organisms... humans and organisms... humans and abiotic factors... biotic factors?
 
-<!-- ------------------------------------------------------------------------ -->
+<br/><br/>
 
-<!-- **Logit-transformation** -->
+![](slide8_nyc.png){.absolute top="150" left="1" width="800" height="400"}
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r} -->
-<!-- p_cover_mod.lm2 <- lm(logit(pland_decimal) ~ Site, data = p_cover) -->
-<!-- summary(p_cover_mod.lm2) -->
-<!-- ``` -->
 
-<!-- ```{r} -->
-<!-- par(mfrow = c(2, 2)) -->
-<!-- plot(p_cover_mod.lm2) -->
-<!-- ``` -->
-<!-- ::: -->
 
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ```{r} -->
-<!-- Anova(p_cover_mod.lm2, type = "III") -->
-<!-- ``` -->
-<!-- ::: -->
-<!-- ::: -->
+------------------------------------------------------------------------
 
-<!-- ------------------------------------------------------------------------ -->
+::: columns
+::: {.column width="50%"}
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ![](rpn_ripleysK_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
-<!-- ::: -->
+![](110331_0794.jpg){.absolute top="10" left="1" width="475 " height="350"}
+:::
 
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- Em -->
-<!-- ::: -->
-<!-- ::: -->
+::: {.column width="50%"}
+
+History of Ecology
+
+- Ernst Haeckel, 1868
+  - From the Greek word... oikos or home
+  - "Describes the housekeeping habits of organisms" 
+  
+- G. Evelyn Hutchinson (1903 - 1991)
+  - Modern Ecology
+  - Published "Treatise on Limnology" in 1957
+
+:::
+:::
 
 <!-- ------------------------------------------------------------------------ -->
 
@@ -171,13 +142,8 @@ What are some of the physical (i.e., abiotic) and biological (i.e., biotic) proc
 <!-- ::: -->
 <!-- ::: -->
 
-<!-- ------------------------------------------------------------------------ -->
+------------------------------------------------------------------------
 
-<!-- ::: columns -->
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ![](rpn_Gfunction_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
-<!-- ::: -->
+References
 
-<!-- ::: {.column width="50%" style="font-size: 27px"} -->
-<!-- ::: -->
-<!-- ::: -->
+
