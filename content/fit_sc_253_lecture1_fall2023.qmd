@@ -1,0 +1,161 @@
+# ---
+# title: "Pocilloporid Dispersion at Rapa Nui2"
+# author: "jjh"
+# format: 
+#   revealjs:
+#     incremental: true
+# # editor: visual
+# ---
+# ---
+
+<!-- ```{r, include = FALSE} -->
+<!-- require(tidyverse) -->
+<!-- require(car) -->
+<!-- ``` -->
+
+<!-- ::: incremental -->
+<!-- ## Different patterns of dispersion {.smaller} -->
+
+<!-- -   Environmental heterogeneity -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ![](rpn_ortho_trace_centroids.png){.absolute top="10" left="1" width="350" height="1250"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ![](rpn_quadrat_count_2023_03_18.png){.absolute top="10" right="1" width="575" height="425"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ![](rpn_wave_fig_c.png){.absolute top="10" left="1" width="450" height="375"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ![](rpn_poci_percent_cover_2016.png){.absolute top="10" right="1" width="475" height="375"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%"} -->
+<!-- ![](rpn_wave_fig_c.png){.absolute top="10" left="1" width="450" height="375"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%"} -->
+<!-- ![](rpn_poci_size_2023_03_18.png){.absolute top="10" right="1" width="475" height="375"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- **Raw data (not transformed)** -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ```{r, include = FALSE} -->
+<!-- p_cover = read_csv('LSMclassGrid.csv') %>%  -->
+<!--   group_by(Site) %>% -->
+<!--   mutate( -->
+<!--     pland_decimal = pland*0.01) %>% -->
+<!--   mutate_at(vars(Site, cover, plot_id), factor) -->
+<!-- ``` -->
+
+<!-- ```{r, include = FALSE} -->
+<!-- plot(pland_decimal ~ Site, data = p_cover) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p_cover_mod.lm1 <- lm(pland_decimal ~ Site, data = p_cover) -->
+<!-- summary(p_cover_mod.lm1) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ```{r} -->
+<!-- par(mfrow = c(2, 2)) -->
+<!-- plot(p_cover_mod.lm1) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- Anova(p_cover_mod.lm1, type = "III") -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- **Logit-transformation** -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ```{r} -->
+<!-- p_cover_mod.lm2 <- lm(logit(pland_decimal) ~ Site, data = p_cover) -->
+<!-- summary(p_cover_mod.lm2) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- par(mfrow = c(2, 2)) -->
+<!-- plot(p_cover_mod.lm2) -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ```{r} -->
+<!-- Anova(p_cover_mod.lm2, type = "III") -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ![](rpn_ripleysK_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- Em -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ![](rpn_standL_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ![](rpn_pcf_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ::: columns -->
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ![](rpn_Gfunction_2023_03_18.png){.absolute top="10" left="1" width="400" height="750"} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="50%" style="font-size: 27px"} -->
+<!-- ::: -->
+<!-- ::: -->
