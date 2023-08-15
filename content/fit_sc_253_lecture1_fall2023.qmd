@@ -5,6 +5,8 @@ format:
   revealjs:
     incremental: true
 editor: visual
+bibliography: fit.bib
+csl: nature.csl
 ---
 
 ```{r, include = FALSE}
@@ -36,6 +38,10 @@ require(car)
 Fall 2023
 
 James J. Herlan
+
+As a graduate student, I focus on the modularity, interconnectdness, and resilience of marine populations, communities, and ecosystems. [@nordbotten_ecological_2018]
+
+[Simon A. Levin](https://slevin.princeton.edu/){preview-link="true"}
 
 :::
 :::
