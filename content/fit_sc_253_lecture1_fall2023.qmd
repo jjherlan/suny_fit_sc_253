@@ -29,12 +29,12 @@ require(car)
 ------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide2_earth.jpg){.absolute top="10" left="1" width="450" height="350"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 Fall 2023
 
@@ -63,12 +63,12 @@ What is Ecology?
 ------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide5_moose.png){.absolute top="10" left="1" width="450" height="375"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 What are some of the physical (i.e., abiotic) and biological (i.e., biotic) processes in this photo?
 
@@ -100,12 +100,12 @@ Direct and interactions between organisms... humans and organisms... humans and 
 ------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](110331_0794.jpg){.absolute top="10" left="1" width="475 " height="350"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 History of Ecology
 
@@ -123,7 +123,7 @@ History of Ecology
 ------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 Ecology - changes in perspective
 
@@ -133,7 +133,7 @@ Ecology - changes in perspective
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 Origins and mechanisms of interactions
 
@@ -147,7 +147,7 @@ Origins and mechanisms of interactions
 ------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 Why is Ecology so cool?
 
@@ -160,7 +160,7 @@ https://www.scientificamerican.com/article/fuzzy-pikas-adapt-to-climate-change-a
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 {{< video https://www.youtubeeducation.com/watch?v=F8edS07_Cys width="500" height="350" >}}
 
@@ -170,7 +170,7 @@ https://www.scientificamerican.com/article/fuzzy-pikas-adapt-to-climate-change-a
 ------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 Why is Ecology so cool?
 
@@ -180,7 +180,7 @@ Why is Ecology so cool?
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide16_monarchs.png){.absolute top="10" right="1" width="250" height="125"}
 
@@ -206,7 +206,7 @@ https://news.nationalgeographic.com/2017/10/monarch-butterfly-migration/
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide15_monarchs.jpg){.absolute top="10" right="1" width="475" height="250"}
 
@@ -247,7 +247,7 @@ http://rspb.royalsocietypublishing.org/content/281/1778/20133006
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide18_sloth.png){.absolute top="10" right="1" width="475" height="250"}
 
@@ -271,7 +271,7 @@ https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.13021
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide19_bear.jpg){.absolute top="10" right="1" width="475" height="250"}
 
@@ -294,7 +294,7 @@ https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.13021
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide19_bear.jpg){.absolute top="10" right="1" width="475" height="250"}
 
@@ -317,7 +317,7 @@ Ecology helps us understand humans' interactions with the environment
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
 ![](slide21_pop_growth.png){.absolute top="10" right="1" width="475" height="250"}
 
@@ -345,13 +345,13 @@ Ecology helps us understand humans' interactions with the environment
 ::: columns
 ::: {.column width="50%" style="font-size: 0.75em"}
 
-Ecology helps us understand humans' interactions with the environment
+World population as of now: ~ 8.0 billion
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
-![](slide22_pop_growth2.png){.absolute top="10" right="1" width="475" height="250"}
+![](slide24_pop_growth3.png){.absolute top="10" right="1" width="475" height="250"}
 :::
 :::
 
@@ -360,15 +360,151 @@ Ecology helps us understand humans' interactions with the environment
 ::: columns
 ::: {.column width="50%" style="font-size: 0.75em"}
 
-Ecology helps us understand humans' interactions with the environment
+Example: human impact on climate change
+
+- What have we seen in the past?
+- What do we predict for the future?
+
+[Intergovernmental Panel on Climate Change](https://www.ipcc.ch/publications_and_data/ar4/wg1/en/ch1s1-2.html){preview-link="true"}
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="font-size: 0.75em"}
 
-![](slide22_pop_growth2.png){.absolute top="10" right="1" width="475" height="250"}
+![](slide25_pop_growth4.png){.absolute top="10" right="1" width="400" height="275"}
 
 :::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](slide26_climate_change.png){.absolute top="10" left="1" width="400" height="550"}
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](slide25_pop_growth4.png){.absolute top="10" right="1" width="425" height="275"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+What are environmental problems?
+
+- Problems of humans and our relationships with our environment; when an ecological system is disrupted by human activity
+
+  - Ideas??
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](110331_0828.jpg){.absolute top="10" right="1" width="300" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+What are environmental problems?
+
+- What causes these problems?
+- How can we use ecological tools and scientific method to understand and solve environmental problems?
+- What social processes need to be considered to make solutions to these problems possible?
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+{{< video https://youtu.be/-Hi6lpRmxFw width="500" height="350" >}}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+Social system and ecosystem interconnectedness
+
+- Think about ecosystem interactions
+- Think about human-ecosystem interactions
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](slide29_human_ecosystem.png){.absolute top="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+What is natural?
+
+[Bark Beetles NYT](http://www.nytimes.com/2008/11/18/science/18trees.html){preview-link="true"}
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](slide31_nytimes.png){.absolute top="10" right="1" width="475" height="250"}
+
+![](slide31_bark_beetle1.png){.absolute bottom="10" right="1" width="475" height="250"}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+What is natural?
+
+[Bark Beetle Wood](http://springfieldmn.blogspot.com/2012/12/beetle-wood.html){preview-link="true"}
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](slide31_nytimes.png){.absolute top="10" right="1" width="475" height="250"}
+
+[Bark Beetle Wood](https://www.fs.fed.us/outernet/r3/resources/health/field-guide/bb/index.shtml){preview-link="true"}
+
+{{< video http://www.nrcan.gc.ca/forests/video/13552 width="500" height="350" >}}
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: incremental
+## In-class group assignment!
+
+- What are the main players in this article?
+  - Ecological?
+  - Human?
+- What is/are the environmental problem(s) discussed in this article?
+- What is an ecological interaction described in this article?
+- What is an interaction between a human social system and ecosystem described here?
+
 :::
 
 ------------------------------------------------------------------------
