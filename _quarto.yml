@@ -46,7 +46,9 @@ website:
       - href: content/acknowledgements.qmd
         text: Acknowledgements
       - href: content/fit_sc_253_lecture1_fall2023.qmd
-        text: fit
+        text: Lecture One
+      - href: content/fit_sc_253_lecture2_fall2023.qmd
+        text: Lecture Two
 
 format:
   html:
