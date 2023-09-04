@@ -1,0 +1,420 @@
+---
+title: "Lecture 2"
+author: "James J. Herlan"
+format:
+  revealjs:
+    incremental: true
+editor: visual
+bibliography: fit.bib
+csl: nature.csl
+---
+
+```{r, include = FALSE}
+require(tidyverse)
+require(car)
+```
+
+::: incremental
+## SC253: Ecology and Environmental Problems -- Welcome!
+
+-   Name (what you like to be called)
+-   Year at FIT
+-   Major
+-   Hometown
+-   Do you have a smartphone?
+-   What is an important environmental problem we need to address as a society?
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide2_earth.jpg){.absolute top="10" left="1" width="450" height="350"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+Fall 2023
+
+James J. Herlan
+
+As a graduate student, I focus on the modularity, interconnectedness, and resilience of marine populations, communities, and ecosystems [-@nordbotten_ecological_2018].
+
+[Simon A. Levin](https://slevin.princeton.edu/){preview-link="true"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+What is Ecology?
+
+::: incremental
+-   The science by which we study how organisms (animals, plants, and microbes) interact with each other and with their environment.
+-   Environment: Everything external to the organism: abiotic and biotic.
+    -   Biotic: living things in the environment
+    -   Abiotic: non-living things in the environment
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide5_moose.png){.absolute top="10" left="1" width="450" height="375"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+What are some of the physical (i.e., abiotic) and biological (i.e., biotic) processes in this photo?
+:::
+:::
+
+------------------------------------------------------------------------
+
+Ecology is a broad and diverse field.
+
+::: incremental
+-   Direct and indirect interactions between organisms.
+-   Physical processes and chemical substances are affected by other organisms.
+    -   Once we couple the diverse biotic and complex abiotic components, we can get a sense of the breadth of Ecology.
+:::
+
+------------------------------------------------------------------------
+
+Direct and interactions between organisms... humans and organisms... humans and abiotic factors... biotic factors?
+
+<br/><br/>
+
+![](slide8_nyc.png){.absolute top="150" left="1" width="800" height="400"}
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+![](110331_0794.jpg){.absolute top="10" left="1" width="475 " height="350"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+History of Ecology
+
+-   Ernst Haeckel, 1868
+    -   From the Greek word... oikos or home
+    -   "Describes the housekeeping habits of organisms"
+-   G. Evelyn Hutchinson (1903 - 1991)
+    -   Modern Ecology
+    -   Published "Treatise on Limnology" in 1957
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Ecology - changes in perspective
+
+-   Started as a descriptive science
+    -   Describes phenomena and patterns ("stamp collecting")
+    -   i.e., WHAT?
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+Origins and mechanisms of interactions
+
+-   i.e., the HOW? and WHY?
+-   A functional and evolutionary approach
+-   Ecological setting acts a stage for evolutionary processes
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Why is Ecology so cool?
+
+-   Why do pikas collect certain plants for winter?
+    -   Plants with higher toxin content on bottom of pile.
+-   Plants, habitat impact, and adaptation to climate change
+
+https://www.scientificamerican.com/article/fuzzy-pikas-adapt-to-climate-change-at-different-rates/
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+{{< video https://www.youtubeeducation.com/watch?v=F8edS07_Cys width="500" height="350" >}}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Why is Ecology so cool?
+
+-   Why do monarch butterflies migrate such long distances?
+    -   Monarchs travel 3,000 miles from the United States to the mountains of Mexico.
+    -   It takes multiple generations of butterflies to make the round-trip journey.
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide16_monarchs.png){.absolute top="10" right="1" width="250" height="125"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Why is Ecology so cool?
+
+-   How do monarch butterflies migrate such long distances?
+    -   Use signals from the changing of the seasons and availability of their main food source (milkweed plants).
+    -   Their overwintering habitats are in danger from habitat conversion to agriculture.
+-   Why do they migrate?
+    -   To follow food?
+    -   To escape parasites and disease?
+
+https://news.nationalgeographic.com/2017/10/monarch-butterfly-migration/
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide15_monarchs.jpg){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Why is Ecology so cool?
+
+-   Why do three-toed sloths poop on the ground?
+:::
+
+::: {.column width="50%"}
+{{< video https://www.youtubeeducation.com/watch?v=ndMKTnSRsKM width="500" height="350" >}}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Why is Ecology so cool?
+
+-   Why do three-toed sloths poop on the ground?
+-   Positive interactions between sloths, moths, and algae!
+    -   3-way mutualism
+    -   This does not occur in sloth species that poop while in trees.
+
+http://rspb.royalsocietypublishing.org/content/281/1778/20133006
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide18_sloth.png){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Why is Ecology so cool?
+
+-   How does climate change impact wildlife?
+-   Bears aren't hibernating or they are waking up early
+    -   "...where a 1 $^\circ$C increase in the winter minimum temperature is associated with a 6-day reduction in the black bear hibernation; by 2050, the average length of bear hibernation in our study area could decline by 8 to 22 days [-@johnson_human_2018]."
+
+https://www.nytimes.com/2018/05/04/climate/bears-not-hibernating.html?emc=edit_th_180510&nl=todaysheadlines&nlid=325038210510
+
+https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.13021
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide19_bear.jpg){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Why is Ecology so cool?
+
+-   Shorter hibernation may mean more conflicts between bears and people.
+-   How they respond to changes in their food sources is still being investigated.
+
+https://www.nytimes.com/2018/05/04/climate/bears-not-hibernating.html?emc=edit_th_180510&nl=todaysheadlines&nlid=325038210510
+
+https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/1365-2664.13021
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide19_bear.jpg){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Ecology helps us understand humans' interactions with the environment
+
+-   Example: Human population growth
+    -   What have we seen in the past?
+    -   What do we predict for the future? -Use math to do this
+
+[Our World in Data](https://ourworldindata.org/world-population-growth/){preview-link="true"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide21_pop_growth.png){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Ecology helps us understand humans' interactions with the environment
+:::
+
+::: {.column width="50%"}
+![](slide22_pop_growth2.png){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+World population as of now: \~ 8.0 billion
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide24_pop_growth3.png){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Example: human impact on climate change
+
+-   What have we seen in the past?
+-   What do we predict for the future?
+
+[Intergovernmental Panel on Climate Change](https://www.ipcc.ch/publications_and_data/ar4/wg1/en/ch1s1-2.html){preview-link="true"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide25_pop_growth4.png){.absolute top="10" right="1" width="400" height="275"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide26_climate_change.png){.absolute top="10" left="1" width="400" height="550"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide25_pop_growth4.png){.absolute top="10" right="1" width="425" height="275"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+What are environmental problems?
+
+-   Problems of humans and our relationships with our environment; when an ecological system is disrupted by human activity
+
+    -   Ideas??
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](110331_0828.jpg){.absolute top="10" right="1" width="300" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+What are environmental problems?
+
+-   What causes these problems?
+-   How can we use ecological tools and scientific method to understand and solve environmental problems?
+-   What social processes need to be considered to make solutions to these problems possible?
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+{{< video https://youtu.be/-Hi6lpRmxFw width="500" height="350" >}}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+Social system and ecosystem interconnectedness
+
+-   Think about ecosystem interactions
+-   Think about human-ecosystem interactions
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide29_human_ecosystem.png){.absolute top="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+What is natural?
+
+[Bark Beetles NYT](http://www.nytimes.com/2008/11/18/science/18trees.html){preview-link="true"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide31_nytimes.png){.absolute top="10" right="1" width="475" height="250"}
+
+![](slide31_bark_beetle1.png){.absolute bottom="10" right="1" width="475" height="250"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+What is natural?
+
+[Bark Beetle Wood](http://springfieldmn.blogspot.com/2012/12/beetle-wood.html){preview-link="true"}
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+![](slide31_nytimes.png){.absolute top="10" right="1" width="475" height="250"}
+
+[Bark Beetle Wood](https://www.fs.fed.us/outernet/r3/resources/health/field-guide/bb/index.shtml){preview-link="true"}
+
+{{< video http://www.nrcan.gc.ca/forests/video/13552 width="500" height="350" >}}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: incremental
+## In-class group assignment!
+
+-   What are the main players in this article?
+    -   Ecological?
+    -   Human?
+-   What is/are the environmental problem(s) discussed in this article?
+-   What is an ecological interaction described in this article?
+-   What is an interaction between a human social system and ecosystem described here?
+:::
+
+------------------------------------------------------------------------
+
+References
