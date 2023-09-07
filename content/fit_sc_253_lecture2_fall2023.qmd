@@ -343,7 +343,7 @@ Levels of Ecology
 
 - [Did either video support pre-existing opinions/thoughts?]{style='color: blue'}
 - [Did this impact how you felt about the video?]{style='color: blue'}
-- [Whatt questions did you have after watching the videos?]{style='color: blue'}
+- [What questions did you have after watching the videos?]{style='color: blue'}
 
 :::
 
