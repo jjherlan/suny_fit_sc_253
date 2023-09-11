@@ -1,0 +1,361 @@
+---
+title: "Lecture 3: Natural Selection and Evolution"
+author: "James J. Herlan"
+format:
+  revealjs:
+    incremental: true
+editor: visual
+bibliography: fit.bib
+csl: nature.csl
+---
+
+```{r, include = FALSE}
+require(tidyverse)
+require(car)
+```
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Evolution**
+
+-   Change in the frequencies of genes in a population over time
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Natural Selection**
+
+  - Evolutionary fitness: the ability to survive and reproduce offspring that carry your genes to the next generation  
+
+  - **NOT** *survival of the fittest*
+    - **Exponential growth**
+  - [Primer of Ecology Using R](https://hankstevens.github.io/Primer-of-Ecology/index.html){preview-link="true"}
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Natural History and Ecology**
+
+-   Natural history had provided an accounting and description of the organisms in natural communities long before ecology arose as a scientific discipline.
+-   [**Ecology** sought to explain the properties of those communities and predict their future.]{style='color: blue'}
+    -  [Major challenge!!]{style='color: red'} 
+- Distributions and abundances of organisms are constantly changing, so mathematics is important for understanding ecology.
+
+- Describe a population in which there is no competition:
+
+  - $N_{t} = N_{0}R^{t}$
+
+  - *R* is a constant and if *R > 1*, the population will continue to increase in size            indefinitely 
+    - **Exponential growth**
+  - [Primer of Ecology Using R](https://hankstevens.github.io/Primer-of-Ecology/index.html){preview-link="true"}
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+**Observation 1**
+
+- There are fewer elk in Yellowstone National Park than there used to be.
+
+**Observation 2**
+
+- The density of elk in Yellowstone National Park has declined during the consecutive dry years since the reintroduction of th enative wolf population. 
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+**Hypothesis 1**
+
+- Songbirds sing more when the weather is warm.
+
+**Hypothesis 2**
+
+- The number of songbirds heard per hour during daylight temperatures above 80$^\circ$F (27$^\circ$C) is not significantly different from the number heard per hour at temperatures below 80$^\circ$F (27$^\circ$C).
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="75%" style="font-size: 0.75em"}
+![](lec2_ecology_scales.jpg){.absolute top="10" left="1" width="525" height="400"}
+:::
+
+::: {.column width="25%" style="font-size: 0.75em"}
+Levels of Ecology
+:::
+:::
+
+------------------------------------------------------------------------
+
+**Individual**
+
+-   One organism of a particular species
+- What can we measure about individuals?
+  - Movement
+  - Reproductive output
+  - Behavior
+
+------------------------------------------------------------------------
+
+**Individual**
+
+-   One individual organism of a particular species
+- [NPS - Wolf](https://www.nps.gov/articles/denali-smart-collars.htm){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Location of individual wolves**
+
+- [NPS - Wolf](https://www.nps.gov/articles/aps-v5-i1-c8.htm){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Population**
+
+- A group of individuals of the same species
+- What can we measure about populations?
+  - Density
+    - Individuals * area$^{-1}$
+    - 7 wolves km$^{-2}$
+  - Reproductive output
+    - How to measure?
+  - Behavior
+    - Example
+
+------------------------------------------------------------------------
+
+**Population**
+
+- A group of individuals of the same species
+- [NPS - Wolf](https://www.nps.gov/articles/aps-v5-i1-c8.htm){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Population change over time**
+
+- A group of individuals of the same species
+- [NPS - Wolf Annual Report 2013](https://www.nps.gov/yell/learn/nature/upload/2013-Wolf-Report-Accessible_web.pdf){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Community**
+
+- A group of multiple (i.e., different) species living in the same habitat
+- What can we measure of communities?
+  - Density
+    - Number * area$^{-1}$
+    - 3 wolf species km$^{-2}$
+  - Interactions
+    - Intra- & interspecific interactions
+
+------------------------------------------------------------------------
+
+**Community**
+
+- A group of multiple (i.e., different) species living in the same habitat
+- [NPS - Wolf](http://www.yellowstonegate.com/2013/06/study-yellowstone-elk-pregnancies-stressed-from-poor-nutrition-not-wolves/){preview-link="true"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_carbon_cycle.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+**Biosphere**
+
+- The environments and all life on Earth
+- What can we measure of biosphere?
+  - Global movement of populations
+  - Circulation of water and carbon
+
+------------------------------------------------------------------------
+
+![](fit_lec2_biosphere.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+**Ecological systems**
+
+- Complex network regulated by **feedbacks**
+- [**Negative feedback**: an effect that opposes change and regulation occurs]{style='color: green'}
+  - [e.g., homeostasis]{style='color: green'}
+- [**Positive feedback**: an effect that increases change and exacerbates previous state occurs]{style='color: blue'}
+  - [e.g., exponential population growth rate]{style='color: blue'}
+
+------------------------------------------------------------------------
+
+**Ecological systems**
+
+- Environmental problems often occur when these feedback systems are disrupted
+  - e.g., when a negative feedback changes to a positive feedback and regulation ceases
+
+------------------------------------------------------------------------
+
+![](fit_lec2_feedback.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+**Reinforcing** or **Positive** feedback loops
+
+- Enhance disturbances
+
+- Systems move further from equilibrium
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+**Balancing** or **Negative** feedback loops
+
+- Counteract disturbances
+
+- Systems return to equilibrium
+:::
+:::
+
+------------------------------------------------------------------------
+
+![](fit_lec2_amplifier.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_negative1.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_negative2.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_positive1.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_positive2.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+**Why the differences in the outcomes**
+
+- Within in certain limits, systems can be stressed and will return to equilibrium states via negative feedback loops.
+- However, when those stress limits are exceeded, positive feedback loops become established, and the system heads towards collapse.
+
+------------------------------------------------------------------------
+
+**Permafrost melting due to increased global temperatures**
+
+- Carbon and methane [trapped in permafrost](https://www.npr.org/sections/goatsandsoda/2018/01/24/575220206/is-there-a-ticking-time-bomb-under-the-arctic){preview-link="true"} is released if it melts
+- Viruses and other microorganisms could be *woken up* and [released](https://www.npr.org/sections/goatsandsoda/2018/01/24/575974220/are-there-zombie-viruses-in-the-thawing-permafrost){preview-link="true"}
+
+![](fit_lec2_permafrost.png){.absolute bottom="10" center="0" width="700" height="350"}
+
+------------------------------------------------------------------------
+
+**Permafrost melting due to increased global temperatures**
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_yellowstone1.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_food_pyramid.png){.absolute top="10" left="1" width="1500" height="750"}
+
+------------------------------------------------------------------------
+
+**Wolves and elk in Yellowstone National Park**
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_trophic_cascade.png){.absolute bottom="10" left="1" width="850" height="550"}
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Wolves and elk in Yellowstone National Park**
+
+- Two videos discuss this situation.
+- When watching these videos, answer these questions:
+
+- [What data are discussed in the videos?]{style='color: blue'}
+- [Are any sourced cited, scientists, or other people involved in research/management interviewed?]{style='color: blue'}
+- [Did you like the video? Was it helpful in explaining the scenario?]{style='color: blue'}
+- [Did the video support any of your previously held views?]{style='color: blue'}
+- [Did you have any questions at the end of the video? What were they?]{style='color: blue'}
+
+:::
+
+------------------------------------------------------------------------
+
+{{< video https://www.youtube.com/watch?v=ysa5OBhXz-Q width="500" height="500" >}}
+
+------------------------------------------------------------------------
+
+{{< video https://www.youtube.com/watch?v=1vXaTQwBd2A width="500" height="500" >}}
+
+------------------------------------------------------------------------
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_cascade1.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_cascade2.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_cascade3_final.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Wolves and elk in Yellowstone National Park**
+
+- How were the videos different?
+- Was either more helpful than the other in explaining the scenario to you?
+
+- [Did either video support pre-existing opinions/thoughts?]{style='color: blue'}
+- [Did this impact how you felt about the video?]{style='color: blue'}
+- [What questions did you have after watching the videos?]{style='color: blue'}
+
+:::
+
+------------------------------------------------------------------------
+
+References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
