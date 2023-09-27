@@ -1,5 +1,5 @@
 ---
-title: "Lecture 3: Natural Selection and Evolution"
+title: "Lecture 5: Natural Selection and Evolution"
 author: "James J. Herlan"
 format:
   revealjs:
@@ -17,11 +17,14 @@ require(car)
 ------------------------------------------------------------------------
 
 ::: columns
+
 ::: {.column width="50%" style="font-size: 0.75em"}
 
 **Evolution**
 
 -   Change in the frequencies of genes in a population over time
+
+:::
 
 ::: {.column width="50%" style="font-size: 0.75em"}
 
@@ -32,6 +35,8 @@ require(car)
   - **NOT** *survival of the fittest*
     - **Exponential growth**
   - [Primer of Ecology Using R](https://hankstevens.github.io/Primer-of-Ecology/index.html){preview-link="true"}
+
+:::
 
 :::
 
