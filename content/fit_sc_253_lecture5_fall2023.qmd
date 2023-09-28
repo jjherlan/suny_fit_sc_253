@@ -282,9 +282,9 @@ require(car)
 
 ::: {.column width="50%" style="font-size: 0.75em"}
 
-![](moths.png){.absolute bottom="10" center="0" width="250" height="250"}
+![](moths.png){.absolute bottom="5" center="0" width="500" height="350"}
 
-[Download for free at](https://openstax.org/details/books/biology){preview-link="true"}
+[Download Link](https://openstax.org/details/books/biology){preview-link="true"}
 
 
 :::
