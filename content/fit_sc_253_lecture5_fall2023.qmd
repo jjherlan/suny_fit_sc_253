@@ -120,22 +120,284 @@ require(car)
 
 ------------------------------------------------------------------------
 
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**A Christmas Carol**
+
+  - Charles Dickens, 1843
+    - *"If they would rather die, said Scrooge, they had better do it, and decrease the surplus population"*
+  - Population of London
+    - 1843: 1 million
+    - Present: ~ 9 million
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](a_xmas_carol.png){.absolute top="10" center="0" width="500" height="500"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Thomas Malthus**
+
+- Life is hard, not everyone survives.
+- What determines who lives and who does not?
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Life is hard!**
+
+  - Darwin and Wallace applied Malthus' theories on population growth
+    - Other species besides humans
+  - Populations have a tremendous potential for increase, yet absolute abundance (i.e., number of individuals over time) may not change significantly
+    - What is happening to the *excess*?
+    - **Natural selection** describes this process
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**What is evolution?** **Why do we care?**
+
+  - Evolution is change in allele frequencies across generations in a population (i.e., genetic level) or *descent with modification* (i.e., Darwin's idea)
+    - Explains how we *get* biological diversity and why organisms are adapted to thei environment
+      - Although evolution may occur for other reasons!
+
+:::
+
+------------------------------------------------------------------------
+
 **Mutations over generations**
 
 -   Evolution 
-- [NPS - Wolf](https://youtu.be/yybsSqcB7mE){preview-link="true"}
+- [Mutations and Antibiotics](https://youtu.be/yybsSqcB7mE){preview-link="true"}
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Natural Selection can Lead to Evolution**
+
+  - **Natural Selection**
+    - A method proposed by Darwin that leads to gradual changes in populations as they respond to their environment
+  - Ingredients
+    - Heritable variation in traits
+    - Differential Reproduction
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](shells.jpg){.absolute bottom="10" center="0" width="500" height="750"}
+[Image by Debivort CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/){preview-link="true"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Natural Selection**
+
+  - Every population produces an **excess of offsping**
+    - Many more individuals are born than can possibly survive
+  - **Variaiton** occurs in every group of organisms
+    - Individuals are not identical in any population
+  - **Competition**
+    - *The active demand by two or more individuals for a resource in limited supply*
+    - Occurs among offspring
+      - *Struggle for existence*
+  - Among all competing offspring, **only those individuals best able to obtain and use resources will survive and reproduce** well, while those with less efficient traits will die
+  - If **characteristics are heritable**, then future generations will be composed of more of the offspring of the individuals best able to obtain and use resources 
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**How Natural Selection Works: Heritable Variation in Traits**
+
+  - **Phenotype is the expression of genotype**
+    - Gregor Mendel's contribution explains heritability!
+    - May also depend on environment or development
+      - Phenotpyic plasticity
+      - Developmental plasticity
+  - **Variation in genes for each trait (alleles)**
+    - Gene is the portion of the DNA that encodes for an RNA molecule
+    - Variation in genotype is due to mutations and recombination
+    - Diploid organisms have two sets of alleles from each trait with various relationships
+      - Homozygous vs. heterozygous
+      - Dominant, codominant, or recessive
+  - **Selection acts on the phenotype, not genes!**
+  - **And on whole individuals**
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](shells.jpg){.absolute bottom="10" center="0" width="500" height="750"}
+[Image by Debivort CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/){preview-link="true"}
+
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**How Natural Selection Works: Differential Reproduction**
+
+  - For evolution to occur, species must have different fitness (i.e., reproductive output) in the environment and differences must be heritable
+  - Leads to selection for traits
+    - Peppered moth example
+  - Evolution can be viewed as genetic change over time or as a process of descent with modification
+    - Change due to *natural selection*
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](moths.png){.absolute bottom="10" center="0" width="250" height="250"}
+
+[Download for free at](https://openstax.org/details/books/biology){preview-link="true"}
+
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**Putting it all together...**
+
+  - Evolution is change in allele frequency (proportion) over time.
+  - Example: In a population of 1000 individuals
+    - 360 = **AA**
+    - 480 = **Aa**
+    - 160 = **aa**
+  - Frequency of **a** is 0.4 or 40%
+  - Frequency of **A** is 0.6 or 60%
+  - If the frequency of **a** changed to 71%, then the population would have evolved at that gene.
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](punnett_sq.png){.absolute bottom="10" center="0" width="400" height="850"}
+
+Image by Angelahartsock
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**Natural Selection Can Lead to Various types of Selection**
+
+  - Phenotype is target of selection
+    - Only individuals can be selected
+  - **Populations evolve!**
+    - Not organisms.
+  - Disruptive Selection
+    - Galapagos finches
+  - Stabilizing Selection
+    - Birth weight of humans
+  - Directional Selection
+    - Color choices for camouflage or male size
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](distributions_selection.png){.absolute bottom="1" center="0" width="400" height="800"}
+
+[Image by Andrew Z. Colvin CC BY-SA 3.0 ](https://creativecommons.org/licenses/by-sa/3.0){preview-link="true"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Other ways to evolve**
+
+  - Genetic Drift
+    - Changes due to chance
+  - Non-random mating
+    - Only changes to genotype frequencies
+    - Not allele frequencies!
+  - Sexual reproduction and selection
+  - Gene flow
+    - Movement of genes via dispersal and migration
+    - Requires populations and species
+    - Arrival of new organisms or gametes impacts allele frequencies
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Genetic Drift**
+
+  - Changes in allele frequencies of a population over generations due to chance
+  - Occurs in populations of all sizes, but have the strongest effect on small populations
+  - Can result in the fixation or extinction of alleles
+
+:::
+
+![](marbles.png){.absolute bottom="10" center="0" width="1200" height="350"}
+
+[Image by Gringer CC BY-SA 3.0 ](https://creativecommons.org/licenses/by-sa/3.0){ preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Virtual Biology Lab**
+
+- PopGen Fishpond 
+- [PopGen Fishpond](http://virtualbiologylab.org/ModelsHTML5/PopGenFishbowl/PopGenFishbowl.html){preview-link="true"}
 
 ------------------------------------------------------------------------
 
 **The Making of the Fittest: Natural Selection and Adaptation**
 
 - [The Making of the Fittest...](http://www.hhmi.org/biointeractive/making-fittest-natural-selection-and-adaptation){preview-link="true"}
-
-------------------------------------------------------------------------
-
-**Simon Levin - Ecosystems and the Biosphere as Complex Adaptive Systems**
-
-- [Simon Levin](https://youtu.be/3E4bzn9upVo){preview-link="true"}
 
 ------------------------------------------------------------------------
 
@@ -147,202 +409,9 @@ require(car)
 
 ------------------------------------------------------------------------
 
-**Population change over time**
+**Simon Levin - Ecosystems and the Biosphere as Complex Adaptive Systems**
 
-- A group of individuals of the same species
-- [NPS - Wolf Annual Report 2013](https://www.nps.gov/yell/learn/nature/upload/2013-Wolf-Report-Accessible_web.pdf){preview-link="true"}
-
-------------------------------------------------------------------------
-
-**Community**
-
-- A group of multiple (i.e., different) species living in the same habitat
-- What can we measure of communities?
-  - Density
-    - Number * area$^{-1}$
-    - 3 wolf species km$^{-2}$
-  - Interactions
-    - Intra- & interspecific interactions
-
-------------------------------------------------------------------------
-
-**Community**
-
-- A group of multiple (i.e., different) species living in the same habitat
-- [NPS - Wolf](http://www.yellowstonegate.com/2013/06/study-yellowstone-elk-pregnancies-stressed-from-poor-nutrition-not-wolves/){preview-link="true"}
-
-------------------------------------------------------------------------
-
-![](fit_lec2_carbon_cycle.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-**Biosphere**
-
-- The environments and all life on Earth
-- What can we measure of biosphere?
-  - Global movement of populations
-  - Circulation of water and carbon
-
-------------------------------------------------------------------------
-
-![](fit_lec2_biosphere.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-**Ecological systems**
-
-- Complex network regulated by **feedbacks**
-- [**Negative feedback**: an effect that opposes change and regulation occurs]{style='color: green'}
-  - [e.g., homeostasis]{style='color: green'}
-- [**Positive feedback**: an effect that increases change and exacerbates previous state occurs]{style='color: blue'}
-  - [e.g., exponential population growth rate]{style='color: blue'}
-
-------------------------------------------------------------------------
-
-**Ecological systems**
-
-- Environmental problems often occur when these feedback systems are disrupted
-  - e.g., when a negative feedback changes to a positive feedback and regulation ceases
-
-------------------------------------------------------------------------
-
-![](fit_lec2_feedback.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-::: columns
-::: {.column width="50%" style="font-size: 0.75em"}
-**Reinforcing** or **Positive** feedback loops
-
-- Enhance disturbances
-
-- Systems move further from equilibrium
-
-:::
-
-::: {.column width="50%" style="font-size: 0.75em"}
-**Balancing** or **Negative** feedback loops
-
-- Counteract disturbances
-
-- Systems return to equilibrium
-:::
-:::
-
-------------------------------------------------------------------------
-
-![](fit_lec2_amplifier.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-![](fit_lec2_evaporation_negative1.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-![](fit_lec2_evaporation_negative2.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-![](fit_lec2_evaporation_positive1.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-![](fit_lec2_evaporation_positive2.png){.absolute width="1200" height="800"}
-
-------------------------------------------------------------------------
-
-**Why the differences in the outcomes**
-
-- Within in certain limits, systems can be stressed and will return to equilibrium states via negative feedback loops.
-- However, when those stress limits are exceeded, positive feedback loops become established, and the system heads towards collapse.
-
-------------------------------------------------------------------------
-
-**Permafrost melting due to increased global temperatures**
-
-- Carbon and methane [trapped in permafrost](https://www.npr.org/sections/goatsandsoda/2018/01/24/575220206/is-there-a-ticking-time-bomb-under-the-arctic){preview-link="true"} is released if it melts
-- Viruses and other microorganisms could be *woken up* and [released](https://www.npr.org/sections/goatsandsoda/2018/01/24/575974220/are-there-zombie-viruses-in-the-thawing-permafrost){preview-link="true"}
-
-![](fit_lec2_permafrost.png){.absolute bottom="10" center="0" width="700" height="350"}
-
-------------------------------------------------------------------------
-
-**Permafrost melting due to increased global temperatures**
-
-[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
-
-![](fit_lec2_yellowstone1.png){.absolute bottom="10" left="1" width="750" height="550"}
-
-------------------------------------------------------------------------
-
-![](fit_lec2_food_pyramid.png){.absolute top="10" left="1" width="1500" height="750"}
-
-------------------------------------------------------------------------
-
-**Wolves and elk in Yellowstone National Park**
-
-[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
-
-![](fit_lec2_trophic_cascade.png){.absolute bottom="10" left="1" width="850" height="550"}
-
-------------------------------------------------------------------------
-
-::: {.r-fit-text}
-
-**Wolves and elk in Yellowstone National Park**
-
-- Two videos discuss this situation.
-- When watching these videos, answer these questions:
-
-- [What data are discussed in the videos?]{style='color: blue'}
-- [Are any sourced cited, scientists, or other people involved in research/management interviewed?]{style='color: blue'}
-- [Did you like the video? Was it helpful in explaining the scenario?]{style='color: blue'}
-- [Did the video support any of your previously held views?]{style='color: blue'}
-- [Did you have any questions at the end of the video? What were they?]{style='color: blue'}
-
-:::
-
-------------------------------------------------------------------------
-
-{{< video https://www.youtube.com/watch?v=ysa5OBhXz-Q width="500" height="500" >}}
-
-------------------------------------------------------------------------
-
-{{< video https://www.youtube.com/watch?v=1vXaTQwBd2A width="500" height="500" >}}
-
-------------------------------------------------------------------------
-
-[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
-
-![](fit_lec2_cascade1.png){.absolute bottom="10" left="1" width="750" height="550"}
-
-------------------------------------------------------------------------
-
-[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
-
-![](fit_lec2_cascade2.png){.absolute bottom="10" left="1" width="750" height="550"}
-
-------------------------------------------------------------------------
-
-[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
-
-![](fit_lec2_cascade3_final.png){.absolute bottom="10" left="1" width="750" height="550"}
-
-------------------------------------------------------------------------
-
-::: {.r-fit-text}
-
-**Wolves and elk in Yellowstone National Park**
-
-- How were the videos different?
-- Was either more helpful than the other in explaining the scenario to you?
-
-- [Did either video support pre-existing opinions/thoughts?]{style='color: blue'}
-- [Did this impact how you felt about the video?]{style='color: blue'}
-- [What questions did you have after watching the videos?]{style='color: blue'}
-
-:::
+- [Simon Levin](https://youtu.be/3E4bzn9upVo){preview-link="true"}
 
 ------------------------------------------------------------------------
 
