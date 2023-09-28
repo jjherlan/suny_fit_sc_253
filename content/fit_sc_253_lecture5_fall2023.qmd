@@ -1,0 +1,370 @@
+---
+title: "Lecture 5: Natural Selection and Evolution"
+author: "James J. Herlan"
+format:
+  revealjs:
+    incremental: true
+editor: visual
+bibliography: fit.bib
+csl: nature.csl
+---
+
+```{r, include = FALSE}
+require(tidyverse)
+require(car)
+```
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Evolution**
+
+-   Change in the frequencies of genes in a population over time
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Natural Selection**
+
+  - Evolutionary fitness: the ability to survive and reproduce offspring that carry your genes to the next generation  
+
+  - **NOT** *survival of the fittest*
+    - Meaningless tautology (self-defining statement)
+    - Would mean *survival of the survivors*
+  - **Fittest** are those that *survive* and *reproduce*
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Some History**
+
+  - 1858
+    - Charles Darwin
+    - Alfred Russell Wallace
+    - Worked Independently
+      - Papers presented before the Linnean Society in London
+  - 1859
+    - *On the Origin of Species*
+    - Formally described selection and evolution (termed *descent with modification*) 
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](darwin.png){.absolute top="10" center="0" width="300" height="300"}
+
+![](wallace.png){.absolute bottom="10" center="0" width="450" height="300"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Thomas Malthus**
+
+  - Economist
+    - In 1798 he published, *An Essay on the Principle of Population*
+    - Unchecked population growth always exceeds the growth og means of subsistence.
+    - Actual (checked) population growth is kept in line with food supply growth by processes such as starvation and disease that elevate death rates
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](thomas_malthus.png){.absolute top="10" center="0" width="500" height="500"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Growth of human populations in England**
+
+  - 1st settled in 1750
+    - Population grew to 7.5 million
+  - 1750 to 1798 
+      - 48 years
+      - Population grew to 15 million
+  - Exponential growth
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](exp_growth.jpg){.absolute top="10" center="0" width="500" height="500"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+**Mutations over generations**
+
+-   Evolution 
+- [NPS - Wolf](https://youtu.be/yybsSqcB7mE){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**The Making of the Fittest: Natural Selection and Adaptation**
+
+- [The Making of the Fittest...](http://www.hhmi.org/biointeractive/making-fittest-natural-selection-and-adaptation){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Simon Levin - Ecosystems and the Biosphere as Complex Adaptive Systems**
+
+- [Simon Levin](https://youtu.be/3E4bzn9upVo){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Sexual Selection**
+
+- When traits are maintained or develop which are used as signals
+- [Video 1](https://www.youtube.com/watch?v=nWfyw51DQfU){preview-link="true"}
+- [Video 2](https://www.youtube.com/watch?v=XggUCi1jtz0&app=desktop){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Population change over time**
+
+- A group of individuals of the same species
+- [NPS - Wolf Annual Report 2013](https://www.nps.gov/yell/learn/nature/upload/2013-Wolf-Report-Accessible_web.pdf){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Community**
+
+- A group of multiple (i.e., different) species living in the same habitat
+- What can we measure of communities?
+  - Density
+    - Number * area$^{-1}$
+    - 3 wolf species km$^{-2}$
+  - Interactions
+    - Intra- & interspecific interactions
+
+------------------------------------------------------------------------
+
+**Community**
+
+- A group of multiple (i.e., different) species living in the same habitat
+- [NPS - Wolf](http://www.yellowstonegate.com/2013/06/study-yellowstone-elk-pregnancies-stressed-from-poor-nutrition-not-wolves/){preview-link="true"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_carbon_cycle.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+**Biosphere**
+
+- The environments and all life on Earth
+- What can we measure of biosphere?
+  - Global movement of populations
+  - Circulation of water and carbon
+
+------------------------------------------------------------------------
+
+![](fit_lec2_biosphere.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+**Ecological systems**
+
+- Complex network regulated by **feedbacks**
+- [**Negative feedback**: an effect that opposes change and regulation occurs]{style='color: green'}
+  - [e.g., homeostasis]{style='color: green'}
+- [**Positive feedback**: an effect that increases change and exacerbates previous state occurs]{style='color: blue'}
+  - [e.g., exponential population growth rate]{style='color: blue'}
+
+------------------------------------------------------------------------
+
+**Ecological systems**
+
+- Environmental problems often occur when these feedback systems are disrupted
+  - e.g., when a negative feedback changes to a positive feedback and regulation ceases
+
+------------------------------------------------------------------------
+
+![](fit_lec2_feedback.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%" style="font-size: 0.75em"}
+**Reinforcing** or **Positive** feedback loops
+
+- Enhance disturbances
+
+- Systems move further from equilibrium
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+**Balancing** or **Negative** feedback loops
+
+- Counteract disturbances
+
+- Systems return to equilibrium
+:::
+:::
+
+------------------------------------------------------------------------
+
+![](fit_lec2_amplifier.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_negative1.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_negative2.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_positive1.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_evaporation_positive2.png){.absolute width="1200" height="800"}
+
+------------------------------------------------------------------------
+
+**Why the differences in the outcomes**
+
+- Within in certain limits, systems can be stressed and will return to equilibrium states via negative feedback loops.
+- However, when those stress limits are exceeded, positive feedback loops become established, and the system heads towards collapse.
+
+------------------------------------------------------------------------
+
+**Permafrost melting due to increased global temperatures**
+
+- Carbon and methane [trapped in permafrost](https://www.npr.org/sections/goatsandsoda/2018/01/24/575220206/is-there-a-ticking-time-bomb-under-the-arctic){preview-link="true"} is released if it melts
+- Viruses and other microorganisms could be *woken up* and [released](https://www.npr.org/sections/goatsandsoda/2018/01/24/575974220/are-there-zombie-viruses-in-the-thawing-permafrost){preview-link="true"}
+
+![](fit_lec2_permafrost.png){.absolute bottom="10" center="0" width="700" height="350"}
+
+------------------------------------------------------------------------
+
+**Permafrost melting due to increased global temperatures**
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_yellowstone1.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+![](fit_lec2_food_pyramid.png){.absolute top="10" left="1" width="1500" height="750"}
+
+------------------------------------------------------------------------
+
+**Wolves and elk in Yellowstone National Park**
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_trophic_cascade.png){.absolute bottom="10" left="1" width="850" height="550"}
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Wolves and elk in Yellowstone National Park**
+
+- Two videos discuss this situation.
+- When watching these videos, answer these questions:
+
+- [What data are discussed in the videos?]{style='color: blue'}
+- [Are any sourced cited, scientists, or other people involved in research/management interviewed?]{style='color: blue'}
+- [Did you like the video? Was it helpful in explaining the scenario?]{style='color: blue'}
+- [Did the video support any of your previously held views?]{style='color: blue'}
+- [Did you have any questions at the end of the video? What were they?]{style='color: blue'}
+
+:::
+
+------------------------------------------------------------------------
+
+{{< video https://www.youtube.com/watch?v=ysa5OBhXz-Q width="500" height="500" >}}
+
+------------------------------------------------------------------------
+
+{{< video https://www.youtube.com/watch?v=1vXaTQwBd2A width="500" height="500" >}}
+
+------------------------------------------------------------------------
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_cascade1.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_cascade2.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+[Wolves and elk in Yellowstone National Park](https://www.yellowstonepark.com/things-to-do/gray-wolves-impact-elk){preview-link="true"}
+
+![](fit_lec2_cascade3_final.png){.absolute bottom="10" left="1" width="750" height="550"}
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Wolves and elk in Yellowstone National Park**
+
+- How were the videos different?
+- Was either more helpful than the other in explaining the scenario to you?
+
+- [Did either video support pre-existing opinions/thoughts?]{style='color: blue'}
+- [Did this impact how you felt about the video?]{style='color: blue'}
+- [What questions did you have after watching the videos?]{style='color: blue'}
+
+:::
+
+------------------------------------------------------------------------
+
+References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -49,8 +49,8 @@ website:
         text: Lecture One
       - href: content/fit_sc_253_lecture2_fall2023.qmd
         text: Lecture Two
-      - href: content/fit_sc_253_lecture3_fall2023.qmd
-        text: Lecture Three
+      - href: content/fit_sc_253_lecture5_fall2023.qmd
+        text: Lecture Five
 
 format:
   html:
