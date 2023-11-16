@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/index.html</loc>
-    <lastmod>2023-11-16T14:38:27.812Z</lastmod>
+    <lastmod>2023-11-16T16:49:00.391Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture5_fall2023.html</loc>
-    <lastmod>2023-11-16T14:38:23.271Z</lastmod>
+    <lastmod>2023-11-16T16:48:58.055Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture3_fall2023.html</loc>
-    <lastmod>2023-11-16T14:38:17.593Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rmarkdown.html</loc>
-    <lastmod>2023-11-16T14:38:11.722Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/code.html</loc>
-    <lastmod>2023-11-16T14:38:08.075Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture1_fall2023.html</loc>
-    <lastmod>2023-11-16T14:38:03.844Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/publishing.html</loc>
-    <lastmod>2023-11-16T14:37:57.272Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture6_fall2023.html</loc>
-    <lastmod>2023-11-16T14:38:01.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rendering.html</loc>
-    <lastmod>2023-11-16T14:38:05.746Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/acknowledgements.html</loc>
-    <lastmod>2023-11-16T14:38:08.689Z</lastmod>
+    <lastmod>2023-11-16T16:48:55.938Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/customizing.html</loc>
-    <lastmod>2023-11-16T14:38:12.426Z</lastmod>
+    <lastmod>2023-11-16T16:48:52.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/acknowledgements.html</loc>
+    <lastmod>2023-11-16T16:48:50.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rendering.html</loc>
+    <lastmod>2023-11-16T16:48:48.488Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture6_fall2023.html</loc>
+    <lastmod>2023-11-16T16:48:45.566Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/publishing.html</loc>
+    <lastmod>2023-11-16T16:48:43.527Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture1_fall2023.html</loc>
+    <lastmod>2023-11-16T16:48:47.215Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/code.html</loc>
+    <lastmod>2023-11-16T16:48:50.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rmarkdown.html</loc>
+    <lastmod>2023-11-16T16:48:52.337Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture_sustainable_fall2023.html</loc>
+    <lastmod>2023-11-16T16:48:54.339Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/add-content.html</loc>
-    <lastmod>2023-11-16T14:38:18.759Z</lastmod>
+    <lastmod>2023-11-16T16:48:56.357Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/fit_sc_253_lecture2_fall2023.html</loc>
-    <lastmod>2023-11-16T14:38:26.870Z</lastmod>
+    <lastmod>2023-11-16T16:48:59.832Z</lastmod>
   </url>
 </urlset>
