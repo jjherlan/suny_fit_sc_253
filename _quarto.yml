@@ -51,8 +51,8 @@ website:
         text: Lecture Two
       - href: content/fit_sc_253_lecture5_fall2023.qmd
         text: Lecture Five
-      - href: content/fit_sc_253_lecture6_fall2023.qmd
-        text: Lecture Five
+      - href: content/fit_sc_253_lecture_sustainable_fall2023.qmd
+        text: Lecture Sustainable
 
 format:
   html:
