@@ -1,0 +1,455 @@
+---
+title: "Lecture : Sustainable Development"
+author: "James J. Herlan"
+format:
+  revealjs:
+    incremental: true
+editor: visual
+bibliography: fit.bib
+csl: nature.csl
+---
+
+```{r, include = FALSE}
+require(tidyverse)
+require(car)
+```
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Sustainable Development**
+
+![](intro.png){.absolute bottom="10" center="0" width="450" height="300"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Evolution**
+
+-   Change in the frequencies of genes in a population over time
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Natural Selection**
+
+  - Evolutionary fitness: the ability to survive and reproduce offspring that carry your genes to the next generation  
+
+  - **NOT** *survival of the fittest*
+    - Meaningless tautology (self-defining statement)
+    - Would mean *survival of the survivors*
+  - **Fittest** are those that *survive* and *reproduce*
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Some History**
+
+  - 1858
+    - Charles Darwin
+    - Alfred Russell Wallace
+    - Worked Independently
+      - Papers presented before the Linnean Society in London
+  - 1859
+    - *On the Origin of Species*
+    - Formally described selection and evolution (termed *descent with modification*) 
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](darwin.png){.absolute top="10" center="0" width="300" height="300"}
+
+![](wallace.png){.absolute bottom="10" center="0" width="450" height="300"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Thomas Malthus**
+
+  - Economist
+    - In 1798 he published, *An Essay on the Principle of Population*
+    - Unchecked population growth always exceeds the growth og means of subsistence.
+    - Actual (checked) population growth is kept in line with food supply growth by processes such as starvation and disease that elevate death rates
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](thomas_malthus.png){.absolute top="10" center="0" width="500" height="500"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Growth of human populations in England**
+
+  - 1st settled in 1750
+    - Population grew to 7.5 million
+  - 1750 to 1798 
+      - 48 years
+      - Population grew to 15 million
+  - Exponential growth
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](exp_growth.jpg){.absolute top="10" center="0" width="500" height="500"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**A Christmas Carol**
+
+  - Charles Dickens, 1843
+    - *"If they would rather die, said Scrooge, they had better do it, and decrease the surplus population"*
+  - Population of London
+    - 1843: 1 million
+    - Present: ~ 9 million
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](a_xmas_carol.png){.absolute top="10" center="0" width="500" height="500"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Thomas Malthus**
+
+- Life is hard, not everyone survives.
+- What determines who lives and who does not?
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Life is hard!**
+
+  - Darwin and Wallace applied Malthus' theories on population growth
+    - Other species besides humans
+  - Populations have a tremendous potential for increase, yet absolute abundance (i.e., number of individuals over time) may not change significantly
+    - What is happening to the *excess*?
+    - **Natural selection** describes this process
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**What is evolution?** **Why do we care?**
+
+  - Evolution is change in allele frequencies across generations in a population (i.e., genetic level) or *descent with modification* (i.e., Darwin's idea)
+    - Explains how we *get* biological diversity and why organisms are adapted to thei environment
+      - Although evolution may occur for other reasons!
+
+:::
+
+------------------------------------------------------------------------
+
+**Mutations over generations**
+
+-   Evolution 
+- [Mutations and Antibiotics](https://youtu.be/yybsSqcB7mE){preview-link="true"}
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+**Natural Selection can Lead to Evolution**
+
+  - **Natural Selection**
+    - A method proposed by Darwin that leads to gradual changes in populations as they respond to their environment
+  - Ingredients
+    - Heritable variation in traits
+    - Differential Reproduction
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](shells.jpg){.absolute bottom="10" center="0" width="500" height="750"}
+[Image by Debivort CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/){preview-link="true"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Natural Selection**
+
+  - Every population produces an **excess of offsping**
+    - Many more individuals are born than can possibly survive
+  - **Variaiton** occurs in every group of organisms
+    - Individuals are not identical in any population
+  - **Competition**
+    - *The active demand by two or more individuals for a resource in limited supply*
+    - Occurs among offspring
+      - *Struggle for existence*
+  - Among all competing offspring, **only those individuals best able to obtain and use resources will survive and reproduce** well, while those with less efficient traits will die
+  - If **characteristics are heritable**, then future generations will be composed of more of the offspring of the individuals best able to obtain and use resources 
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**How Natural Selection Works: Heritable Variation in Traits**
+
+  - **Phenotype is the expression of genotype**
+    - Gregor Mendel's contribution explains heritability!
+    - May also depend on environment or development
+      - Phenotpyic plasticity
+      - Developmental plasticity
+  - **Variation in genes for each trait (alleles)**
+    - Gene is the portion of the DNA that encodes for an RNA molecule
+    - Variation in genotype is due to mutations and recombination
+    - Diploid organisms have two sets of alleles from each trait with various relationships
+      - Homozygous vs. heterozygous
+      - Dominant, codominant, or recessive
+  - **Selection acts on the phenotype, not genes!**
+  - **And on whole individuals**
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](shells.jpg){.absolute bottom="10" center="0" width="500" height="750"}
+[Image by Debivort CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/){preview-link="true"}
+
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**How Natural Selection Works: Differential Reproduction**
+
+  - For evolution to occur, species must have different fitness (i.e., reproductive output) in the environment and differences must be heritable
+  - Leads to selection for traits
+    - Peppered moth example
+  - Evolution can be viewed as genetic change over time or as a process of descent with modification
+    - Change due to *natural selection*
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](moths.png){.absolute bottom="5" center="0" width="500" height="350"}
+
+[Download Link](https://openstax.org/details/books/biology){preview-link="true"}
+
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**Putting it all together...**
+
+  - Evolution is change in allele frequency (proportion) over time.
+  - Example: In a population of 1000 individuals
+    - 360 = **AA**
+    - 480 = **Aa**
+    - 160 = **aa**
+  - Frequency of **a** is 0.4 or 40%
+  - Frequency of **A** is 0.6 or 60%
+  - If the frequency of **a** changed to 71%, then the population would have evolved at that gene.
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](punnett_sq.png){.absolute bottom="10" center="0" width="400" height="850"}
+
+Image by Angelahartsock
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: columns
+
+::: {.column width="50%" style="font-size: 0.50em"}
+
+**Natural Selection Can Lead to Various types of Selection**
+
+  - Phenotype is target of selection
+    - Only individuals can be selected
+  - **Populations evolve!**
+    - Not organisms.
+  - Disruptive Selection
+    - Galapagos finches
+  - Stabilizing Selection
+    - Birth weight of humans
+  - Directional Selection
+    - Color choices for camouflage or male size
+
+:::
+
+::: {.column width="50%" style="font-size: 0.75em"}
+
+![](distributions_selection.png){.absolute bottom="1" center="0" width="400" height="800"}
+
+[Image by Andrew Z. Colvin CC BY-SA 3.0 ](https://creativecommons.org/licenses/by-sa/3.0){preview-link="true"}
+
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Other ways to evolve**
+
+  - Genetic Drift
+    - Changes due to chance
+  - Non-random mating
+    - Only changes to genotype frequencies
+    - Not allele frequencies!
+  - Sexual reproduction and selection
+  - Gene flow
+    - Movement of genes via dispersal and migration
+    - Requires populations and species
+    - Arrival of new organisms or gametes impacts allele frequencies
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.r-fit-text}
+
+**Genetic Drift**
+
+  - Changes in allele frequencies of a population over generations due to chance
+  - Occurs in populations of all sizes, but have the strongest effect on small populations
+  - Can result in the fixation or extinction of alleles
+
+:::
+
+![](marbles.png){.absolute bottom="10" center="0" width="1200" height="350"}
+
+[Image by Gringer CC BY-SA 3.0 ](https://creativecommons.org/licenses/by-sa/3.0){ preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Virtual Biology Lab**
+
+- PopGen Fishpond 
+- [PopGen Fishpond](http://virtualbiologylab.org/ModelsHTML5/PopGenFishbowl/PopGenFishbowl.html){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**The Making of the Fittest: Natural Selection and Adaptation**
+
+- [The Making of the Fittest...](http://www.hhmi.org/biointeractive/making-fittest-natural-selection-and-adaptation){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Sexual Selection**
+
+- When traits are maintained or develop which are used as signals
+- [Video 1](https://www.youtube.com/watch?v=nWfyw51DQfU){preview-link="true"}
+- [Video 2](https://www.youtube.com/watch?v=XggUCi1jtz0&app=desktop){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**Simon Levin - Ecosystems and the Biosphere as Complex Adaptive Systems**
+
+- [Simon Levin](https://youtu.be/3E4bzn9upVo){preview-link="true"}
+
+------------------------------------------------------------------------
+
+**References**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
